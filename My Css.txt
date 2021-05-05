@@ -105,14 +105,21 @@ div {
 }
 /* Applied to HTML tags */
 input {
-  padding: 2px;
-  border: 1px solid #abb;
-  background-color: #fff;
-  color: Black;
-  font-size: 9pt;
-  font-weight: normal;
-  border-radius: 3px;
+  width: relative;
+  padding: 10px 10px 10px;
+  margin: 10px 10px 10px;
+  box-sizing: border-box;
+  color: black;
+  background: none;
+  outline: none;
+  resize: auto;
+  border: 0;
+  font-family: veranda, sans-serif;
+  transition: all 0.3s;
+  border-bottom: 2px solid #cccccc;
 }
+
+
 
 
 select {
@@ -139,7 +146,10 @@ input[type="checkbox"] {
 	clear:left;
 }
 input:focus {
-	border:1px solid #09F;
+	
+	 outline: none;
+   border-bottom: 2px solid #00243d ;
+   border-color:solid #00243d;
 }
 textarea:focus {
 	border:1px solid #09F;
