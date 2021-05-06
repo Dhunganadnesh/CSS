@@ -1,0 +1,44 @@
+<form class="form">
+
+
+  <h2> Schedule A Call </h2>
+
+
+  <p type="text"><input placeholder="Full Name" required></p>
+  <p style="color:rgba(255, 99, 71, 0.5);"><i><sup>Full Name</sup></i></p>
+
+
+  <p type=""><input placeholder="Organisation" required></p>
+  <p style="color:rgba(255, 99, 71, 0.5);"><i><sup>Organisation Name</sup></i></p>
+  <p type=""><input type="email" placeholder="Organisation Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required></p>
+  <p style="color:rgba(255, 99, 71, 0.5);"><i><sup>Organisation Email</sup></i></p>
+
+  <p type=""><input type="tel" id="phone" name="phone" placeholder="Phone Number" minlength=10 maxlength="10" pattern="[0-9]" required></p>
+  <p style="color:rgba(255, 99, 71, 0.5);"><i><sup>Phone Number</sup></i></p>
+
+
+  <div class="dropdown">
+    <select class="dropdown-select" required>
+      <option disabled value="" selected>Select Reason For Your Inquiry</option>
+      <option value="1">Account</option>
+      <option value="2">Sales</option>
+      <option value="3">Support</option>
+    </select>
+  </div>
+
+
+  <textarea cols="40" rows="5" wrap=on placeholder="Enter Your Message"></textarea>
+  <p style="color:rgba(255, 99, 71, 0.5);"><i><sup>Message</sup></i></p>
+  
+ 
+  <form class="form">
+    <div class="submitbutton">
+      <button type="submit" value="Submit">Submit</button>
+    </div>
+    <footer>
+      <a href="tel:+61300657243">1300 65 72 43</a>
+      <a href="mailto:info@chillidb.com">info@chillidb.com</a>
+    </footer>
+  </form>
+</form>
+
